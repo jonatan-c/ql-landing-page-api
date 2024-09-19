@@ -1,0 +1,42 @@
+# Entorno virtual
+venv/
+.env
+*.env
+
+# Archivos de compilación de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs y bases de datos locales
+*.log
+*.sqlite3
+*.db
+
+# Directorios de caché
+.cache/
+.pytest_cache/
+
+# Archivos de configuración específicos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Paquetes instalados por pip
+*.egg-info/
+*.eggs/
+dist/
+build/
+
+# Archivos generados por el editor/IDE
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Coverage reports
+htmlcov/
+.coverage
+.tox/
+
+# FastAPI/UVicorn static files (si aplica)
+staticfiles/
+mediafiles/
